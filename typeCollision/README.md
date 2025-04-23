@@ -12,3 +12,10 @@ Exemplo visual
 Movendo `ret1` para a direita até encostar em `ret2`:
 Quando eles se sobrepõem, a função retorna true.
 ```
+Vantagens: 
+1 - Simples de aplicar
+2 - Rápido (só 4 comparações)
+
+Desvantagens: 
+1 - Não funciona com objetos rotacionados
+2 - Pode ser impreciso com formas complexas (tipo triângulos ou sprites arredondados)
