@@ -20,7 +20,7 @@ Desvantagens: <br/>
 1 - Não funciona com objetos rotacionados<br/>
 2 - Pode ser impreciso com formas complexas (tipo triângulos ou sprites arredondados)<br/>
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+**------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------**
 # OBB (Oriented Bounding Box)
 É como um retângulo rotacionado que envolve um objeto. Diferente da AABB (Axis-Aligned Bounding Box), ele pode estar inclinado ou girar, pois não precisa estar alinhado com os eixos X e Y.
 ```
