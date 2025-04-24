@@ -65,12 +65,12 @@ bool CheckOBBCollision(OBB a, OBB b);
 ```
 
 **Onde OBB é usado?**<br/>
-Jogos com carros, aviões, navios (movem-se e giram).<br/>
+- Jogos com carros, aviões, navios (movem-se e giram).<br/>
 
-Plataformas inclinadas.<br/>
+- Plataformas inclinadas.<br/>
 
-Itens ou armas com rotação (espadas, shurikens).<br/>
+- Itens ou armas com rotação (espadas, shurikens).<br/>
 
-Qualquer jogo que precise de colisão mais precisa que AABB.<br/>
+- Qualquer jogo que precise de colisão mais precisa que AABB.<br/>
 
 
