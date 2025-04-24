@@ -1,4 +1,4 @@
-<div font color="red"># AABB (Axis-Aligned Bounding Box)</div>
+<div color="red"># AABB (Axis-Aligned Bounding Box)</div>
 **Explicando com simplicidade:**
 É um retângulo que envolve um objeto sem rotacionar, ou seja, sempre alinhado aos eixos X e Y. Imagine uma caixa invisível ao redor de um personagem, obstáculo ou item. Se duas dessas caixas se sobrepõem, dizemos que houve colisão AABB.
 
