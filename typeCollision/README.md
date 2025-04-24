@@ -34,23 +34,23 @@ Ideia: Se dois polígonos convexos não colidem, sempre existe um eixo no qual a
 Se todas as projeções em todos os eixos se sobrepõem, então eles estão colidindo.<br/>
 
 **Como aplicar no OBB:**<br/>
-Calcular os 4 vértices do OBB (usando center, halfSize e rotation).<br/>
+- Calcular os 4 vértices do OBB (usando center, halfSize e rotation).<br/>
 
 **Obter os eixos de projeção:**<br/>
 
-Cada lado do retângulo gera um eixo perpendicular.<br/>
+- Cada lado do retângulo gera um eixo perpendicular.<br/>
 
-São 2 do primeiro OBB + 2 do segundo → 4 eixos.<br/>
+- São 2 do primeiro OBB + 2 do segundo → 4 eixos.<br/>
 
 **Para cada eixo:**<br/>
 
-Projetar os vértices dos dois OBBs nesse eixo.<br/>
+- Projetar os vértices dos dois OBBs nesse eixo.<br/>
 
-Ver se as projeções se sobrepõem.<br/>
+- Ver se as projeções se sobrepõem.<br/>
 
-Se houver qualquer separação, não há colisão.<br/>
+- Se houver qualquer separação, não há colisão.<br/>
 
-Se nenhuma separação for encontrada, então há colisão.<br/>
+- Se nenhuma separação for encontrada, então há colisão.<br/>
 
 **Código essencial:** 
 ```C
