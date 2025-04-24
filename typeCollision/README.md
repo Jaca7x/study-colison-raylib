@@ -1,6 +1,9 @@
-<span style="color:red">Texto em vermelho</span>
+```diff
++ Isto parece verde
+- Isto parece vermelho
+! Aviso em amarelo
+```
 
-<span style="color:green">Texto em verde</span>
 
 **Explicando com simplicidade:**
 É um retângulo que envolve um objeto sem rotacionar, ou seja, sempre alinhado aos eixos X e Y. Imagine uma caixa invisível ao redor de um personagem, obstáculo ou item. Se duas dessas caixas se sobrepõem, dizemos que houve colisão AABB.
