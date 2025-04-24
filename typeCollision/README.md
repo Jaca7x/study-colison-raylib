@@ -53,7 +53,7 @@ Se houver qualquer separação, não há colisão.<br/>
 Se nenhuma separação for encontrada, então há colisão.<br/>
 
 **Código essencial:** 
-```
+```C
 typedef struct {
     Vector2 center;
     Vector2 halfSize;
