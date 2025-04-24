@@ -23,7 +23,7 @@ Quando eles se sobrepõem, a função retorna true.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 # OBB (Oriented Bounding Box)
 É como um retângulo rotacionado que envolve um objeto. Diferente da AABB (Axis-Aligned Bounding Box), ele pode estar inclinado ou girar, pois não precisa estar alinhado com os eixos X e Y.
-```
+```C  
 Com rotação (OBB)
   /-----/
  /     /
